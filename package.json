@@ -1,0 +1,19 @@
+{
+  "name": "aceh-pass",
+  "version": "1.0.0",
+  "description": "ACEH PASS: sistem tiket QR, check-in, dan monitoring pengunjung (Node.js + PostgreSQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node server.js --migrate",
+    "test": "node --test",
+    "dev": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "license": "MIT"
+}
